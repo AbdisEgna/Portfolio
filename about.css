@@ -1,0 +1,97 @@
+body{
+    background-image: url(./images/wallhaven-57r8x5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.top{
+    text-align: center;
+    margin-left: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr1{
+    width: 420px;
+    margin-left: 0px;
+    border: solid black;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+
+.hr2{
+    width: 295px;
+    margin-left: 60px;
+    border: solid black;
+}
+
+
+.balo{
+    background-image: url(./images/IMG_6876.jfif);
+    border: solid black;
+    height: 55vh;
+    width: 50vh;
+    border-radius: 30%;
+    background-size: cover;
+    float: right;
+    position: relative;
+    margin-left: 70%;
+    margin-top: -885px;
+}
+
+.logo img{
+    width: 100px;
+    margin-right: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 9%;
+}
+
+.links{
+    margin-left: 45px;
+}
+
+@media (max-width: 890px){
+    .presentation{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        top: 600px;
+    }
+    
+}hr2 hr1
+
+@media (max-width: 890px){
+    footer{
+        text-align: center;
+        margin-top: 800px;
+    }
+}
+
+@media (max-width: 890px){
+    .hr1{
+        width: 100%;
+    }
+}
+
+@media (max-width: 890px){
+    .hr2{
+        width: 100%;
+        margin: 0%;
+    }
+}
+
+@media (max-width: 890px){
+    footer{
+        text-align: center;
+        margin-top: 900px;
+    }
+}

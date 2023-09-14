@@ -1,0 +1,80 @@
+body{
+    background-image: url(./images/wallhaven-57r8x5.png);
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.top{
+    text-align: center;
+    margin-left: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    width: 12%;
+    margin-left: 0px;
+    border: solid black;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.hr2{
+    width: 177px;
+}
+
+.balo{
+    background-image: url(./images/IMG_6876.jfif);
+    border: solid black;
+    height: 55vh;
+    width: 50vh;
+    border-radius: 30%;
+    float: right;
+    position: relative;
+    margin-left: 70%;
+    margin-top: -300px;
+}
+
+.logo img{
+    width: 100px;
+    margin-right: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 29%;
+}
+
+@media (max-width: 890px){
+    .presentation {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        top: 600px;
+    }
+    
+}
+
+@media (max-width: 890px){
+    .hr2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 890px){
+    .hr1{
+        width: 100%;
+    }
+}
+
+@media (max-width: 890px){
+    footer{
+        text-align: center;
+        margin-top: 400px;
+    }
+}
